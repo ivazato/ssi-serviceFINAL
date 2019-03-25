@@ -79,7 +79,7 @@ public class EmployeeDto extends DtoBase<Employee> {
         }
         featured = true;
         setImageBase64(employee);
-        jobDescription = "Descripcion de job";
+        //jobDescription = "Descripcion de job";
         return this;
     }
 
